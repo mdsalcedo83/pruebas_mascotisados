@@ -1,0 +1,77 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-style: initial;
+    font-stretch: condensed;
+    font-weight: bolder;
+    
+    
+}
+#container1{
+    display: flex;
+    background-color: rgb(202, 152, 248);
+    border-top: solid 10px rgb(81, 3, 155);
+    border-right: solid 10px rgb(153, 17, 153);
+    border-left: solid 10px rgb(153, 17, 153);
+    border-block-end: solid 10px rgb(81, 3, 155);
+    justify-content: left;
+    justify-items: center;
+    width: 400px;
+    height: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    margin-block-end: 80PX;
+    border-radius: 20px;
+}
+
+#logo{
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+#formulario{
+    display: flex;
+    padding: 40px;
+    flex-flow: column wrap;
+    text-align: center;
+    justify-content: center;
+}
+
+#impusu{
+    margin-left: 20px;
+    border-radius: 10px;
+    border: 0ch;
+    padding: 5px;
+}
+#impuco{
+    border-radius: 10px;
+    margin: 10px;
+    border: 0ch;
+    padding: 5px;
+}
+.ingreso{
+    display: flex;
+    justify-content: center;
+    align-items: justify;
+    flex-flow:row nowrap;
+    padding: 5px;
+    
+}
+.boton{
+    display: flex;
+    border-radius: 10px;
+    border-top: solid 5px rgb(81, 3, 155);
+    border-right: solid 5px rgb(153, 17, 153);
+    border-left: solid 5px rgb(153, 17, 153);
+    border-block-end: solid 5px rgb(81, 3, 155);
+    padding: 10px;
+    background-color: rgb(224, 155, 245);
+    color: rgb(8, 8, 8);
+    margin: 5px;
+    
+}

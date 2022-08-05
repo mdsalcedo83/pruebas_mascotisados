@@ -1,0 +1,71 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+#header{
+    display: flex;
+    flex-flow: row nowrap;
+    height: 150px;
+    background-color: rgb(240, 236, 243);
+    border-top: solid 10px rgb(81, 3, 155);
+    border-right: solid 10px rgb(153, 17, 153);
+    border-left: solid 10px rgb(153, 17, 153);
+    border-block-end: solid 10px rgb(81, 3, 155);
+    align-content: center;
+    justify-content: left;
+   
+
+}
+#titulo1{
+    display: flex;
+    flex-flow:row wrap;
+    align-content: center;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    font-size: 30px;
+    margin-left: 10px;
+    color: rgb(81, 3, 155);
+  
+}
+nav{
+    display: flex;
+    flex-flow: wrap row;
+    background-color: rgb(202, 152, 248);
+    padding: 30px;
+    width: auto;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    
+}
+#logo{
+    display: flex;
+    margin-left: 100px;
+}
+.subtitulo{
+display: flex;
+flex-flow: row wrap;
+padding: 15px;
+margin: 20px;
+align-content: center;
+border-top: solid 10px rgb(81, 3, 155);
+border-right: solid 10px rgb(153, 17, 153);
+border-left: solid 10px rgb(153, 17, 153);
+border-block-end: solid 10px rgb(81, 3, 155);
+border-radius: 20px;
+background-color: rgb(199, 180, 218);
+text-align: center;
+justify-content: center;
+}
+#buscar{
+    display: flex;
+    width: 300px;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 60px;
+    margin-left: 20px;
+}
+

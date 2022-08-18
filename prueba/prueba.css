@@ -1,0 +1,197 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    background: rgb(218, 195, 255);
+}
+.contenedor{
+    
+    margin: 30px;
+}
+nav{
+    
+    display: flex;
+    flex-flow: row wrap;
+    margin-block-end: 0%;
+    height: 80px;
+}
+
+.izq{
+    width: 20%;
+    background: green;
+    display: flex;
+    
+}
+.cnt{
+    width: 60%;
+    background: rgb(147, 209, 147);
+    display: flex;
+
+}
+.der{
+    width: 20%;
+    background: rgb(12, 77, 12);
+    display: flex;  
+}
+header {
+    display: flex;
+    width: 100%;
+    height:500px;
+    background: rgb(151, 240, 221);
+    flex-flow: row wrap;
+   
+}
+.titulo{
+    display: flex;
+    flex-flow: row wrap;
+    background: greenyellow;
+    width: 100%;
+    height: 60px;
+}
+.portafolio{
+    display: flex;
+    flex-flow: row wrap;
+}
+.col-izq{
+    background: grey;
+    width: 33.33%;
+    height: 500px;
+    display: flex;
+    flex-flow: row wrap;
+}
+.col-cnt{
+    background: blanchedalmond;
+    width: 33.33%;
+    height: 500px;
+    display: flex;
+    flex-flow: row wrap;
+}
+.col-der{
+    background: rgb(170, 131, 131);
+    width: 33.33%;
+    height: 500px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.productos{
+    display: flex;
+    flex-flow: row wrap;
+    height: 500px;
+}
+.col-produc-izq{
+    display: flex;
+    flex-flow: column wrap;
+    width: 40%;
+    height: 100%;
+    
+}
+.col-produc-cnt{
+    display: flex;
+    flex-flow: column wrap;
+    width: 20%;
+    height: 100%;
+    
+}
+.col-produc-der{
+    display: flex;
+    flex-flow: column wrap;
+    width: 40%;
+    height: 100%;
+  
+}
+.col1,.col3, .col2-cnt, .col1-der, .col3-der{
+    display: flex;
+    flex-flow: row wrap;
+    height: 33.33%;
+    width: 100%;
+    background: rgb(182, 181, 181);
+}
+.col2, .col1-cnt,.col3-cnt, .col2-der{
+    display: flex;
+    flex-flow: row wrap;
+    height: 166.66px;
+    width: 100%;
+    background: rgb(82, 80, 80);
+
+}
+
+.promociones{
+    display: flex;
+    flex-flow: row wrap;
+    height: 800px;
+    width: 100%;
+}
+.prom1{
+    display: flex;
+    flex-flow: row wrap;
+    height: 100%;
+    width: 50%;
+    background: grey;
+}
+.prom2{
+    display: flex;
+    flex-flow: row wrap;
+    height: 100%;
+    width: 50%;
+}
+.prom-izqu{
+    display: flex;
+    flex-flow: row wrap;
+    height: 60%;
+    width: 100%;
+    background: rgb(197, 192, 192);
+
+}
+.prom-dere{
+    display: flex;
+    flex-flow: row wrap;
+    height: 40%;
+    width: 100%;
+    background: rgb(61, 61, 61);
+
+}
+footer{
+    display: flex;
+    flex-flow: row wrap;
+    background: rgb(72, 99, 32);
+    width: 100%;
+    height: 60px;
+}
+
+@media (max-width: 992px) {
+   .col-izq {
+       flex-flow: column wrap;
+        width: 100%;
+        height: 250px;
+        display: flex;  
+   }
+   .col-der, .col-cnt {
+     width: 50%;
+     height: 250px;
+     display: flex;  
+
+}
+ 
+   
+    }
+   
+    
+    
+
+
+@media (max-width: 768px) {	 
+
+    .col-izq,.col-der, .col-cnt {
+      width: 100%;
+      height: 166.66px;
+      display: flex;  
+      flex-flow: column;
+ }
+ 
+     
+
+
+
+
+
+}
